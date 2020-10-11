@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Blood Bank</string>
+    <string name="register_doner">Register Doner</string>
+    <string name="request_blood">Request Blood</string>
+    <string name="register">Register</string>
+    <string name="area">Area :</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="city">City :</string>
+
 </resources>
