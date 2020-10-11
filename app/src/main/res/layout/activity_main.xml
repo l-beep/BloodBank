@@ -67,7 +67,8 @@
                 android:layout_height="80dp"
                 android:id="@+id/btn_req"
                 android:background="@drawable/receive"
-                android:onClick="request_blood"/>
+                android:onClick="request_blood"
+                tools:ignore="OnClick" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -92,7 +93,8 @@
                 android:id="@+id/btn_donate"
                 android:background="@drawable/donate"
                 android:padding="10dp"
-                android:onClick="register_doner"/>
+                android:onClick="register_doner"
+                tools:ignore="OnClick" />
 
             <TextView
                 android:layout_width="wrap_content"
