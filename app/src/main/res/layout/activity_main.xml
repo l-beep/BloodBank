@@ -67,13 +67,13 @@
                 android:layout_height="80dp"
                 android:id="@+id/btn_req"
                 android:background="@drawable/receive"
-                android:onClick="Request_blood"/>
+                android:onClick="Receive_blood"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Request Blood"
+                android:text="Receive Blood"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/colorWhite" />
@@ -90,7 +90,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_donate"
-                android:background="@drawable/donateblood"
+                android:background="@drawable/donate"
                 android:padding="10dp"
                 android:onClick="Donate_blood"/>
 
@@ -98,7 +98,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Register Doner"
+                android:text="Donate blood"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/colorWhite"/>
