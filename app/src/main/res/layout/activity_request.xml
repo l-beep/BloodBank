@@ -24,8 +24,8 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="BLOOD"
                 android:id="@+id/textView"
-                android:textColor="@color/colorPrimary"
-                android:textSize="30dp"/>
+                android:textColor="@color/colorRed"
+                android:textSize="30sp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
                 android:id="@+id/textView3"
                 android:layout_marginLeft="3dp"
                 android:textColor="@color/colorGray"
-                android:textSize="30dp"/>
+                android:textSize="30sp"/>
         </LinearLayout>
 
         <TextView
@@ -84,7 +84,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="City :"
+                android:text="Hospital Location :"
                 android:layout_gravity="center_vertical" />
 
             <Spinner
@@ -103,7 +103,7 @@
             android:id="@+id/submit"
             android:layout_below="@+id/linearLayout4"
             android:layout_marginTop="30dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorRed"
             android:textColor="@color/colorWhite"
             android:layout_alignRight="@+id/linearLayout"
             android:layout_alignEnd="@+id/linearLayout"
