@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -67,8 +66,8 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_req"
-                android:background="@drawable/requestblood"
-                android:onClick="request_blood"/>
+                android:background="@drawable/receive"
+                android:onClick="Request_blood"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -93,7 +92,7 @@
                 android:id="@+id/btn_donate"
                 android:background="@drawable/donateblood"
                 android:padding="10dp"
-                android:onClick="register_doner"/>
+                android:onClick="Donate_blood"/>
 
             <TextView
                 android:layout_width="wrap_content"
