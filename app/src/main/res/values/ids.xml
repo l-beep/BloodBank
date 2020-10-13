@@ -6,4 +6,5 @@
     <item name="appNameTextView" type="id" />
     <item name="locationTextView" type="id" />
     <item name="listView" type="id" />
+    <item name="thisList" type="id" />
 </resources>
